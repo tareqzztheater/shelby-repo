@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Subscribe Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .subscribe-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .subscribe-form {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      margin: auto;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 70%; /* Adjust width as needed */
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-right: 5px; /* Add some spacing between input and button */
+    }
+
+    .form-group button {
+      width: 30%; /* Adjust width as needed */
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .form-group button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="subscribe-container">
+  <h2>Email Subscribe</h2>
+  <form class="subscribe-form" action="#" method="post">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Subscribe</button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
